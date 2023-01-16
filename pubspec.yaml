@@ -1,0 +1,74 @@
+name: network_tools
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Internet speed test
+  internet_speed_test:
+    path: ./internet_speed_test
+
+  # For using cupertino icons
+  cupertino_icons: ^1.0.2
+  
+  # For calling RestAPIs
+  http: ^0.13.5
+
+  #specific version of geolocator for fetching location & handling permissions
+  geolocator: 8.0.0
+  sensors_plus: ^2.0.1
+
+  # For storing data (in local storage) 
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # For showing Graphs & Speed Meters
+  syncfusion_flutter_gauges: ^20.4.43
+  syncfusion_flutter_charts: ^20.4.43
+
+  # Noise meter for detecting noise
+  noise_meter: ^3.1.0
+
+  # For launching maps or any other service
+  url_launcher: ^6.1.7
+
+   # For showing network images
+  # cached_network_image: ^3.2.3
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#   flutter_launcher_icons: "^0.10.0"
+
+# flutter_icons:
+#   android: "ic_launcher"
+#   ios: true
+#   image_path: "images/icon.png"
+#   min_sdk_android: 21
+#   remove_alpha_ios: true
+  
+
+  # For recommended coding practices
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  # For enabling material design
+  uses-material-design: true
+
+  # Application assets
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
